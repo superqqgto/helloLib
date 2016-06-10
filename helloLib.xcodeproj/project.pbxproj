@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		73BFCE0C1CAEC31F00508830 /* fuck.c in Sources */ = {isa = PBXBuildFile; fileRef = 73BFCE0A1CAEC31F00508830 /* fuck.c */; };
+		73BFCE0D1CAEC31F00508830 /* fuck.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BFCE0B1CAEC31F00508830 /* fuck.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		73BFCE031CAEC30500508830 /* libhelloLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libhelloLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BFCE0A1CAEC31F00508830 /* fuck.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuck.c; sourceTree = "<group>"; };
+		73BFCE0B1CAEC31F00508830 /* fuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		73BFCDFA1CAEC30500508830 = {
 			isa = PBXGroup;
 			children = (
+				73BFCE0A1CAEC31F00508830 /* fuck.c */,
+				73BFCE0B1CAEC31F00508830 /* fuck.h */,
 				73BFCE041CAEC30500508830 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73BFCE0D1CAEC31F00508830 /* fuck.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73BFCE0C1CAEC31F00508830 /* fuck.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

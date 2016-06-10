@@ -7,3 +7,8 @@
 //
 
 #include "fuck.h"
+
+void ShowFuck()
+{
+    printf("fuck\n");
+}
